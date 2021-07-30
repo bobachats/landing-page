@@ -128,6 +128,8 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-family: "Comfortaa", 'Open Sans', sans-serif;
 }
 
 abbr[title],
@@ -184,6 +186,14 @@ strong {
 
 small, .small {
   font-size: 0.875em;
+}
+
+.red {
+  color: #DD2E44;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 mark, .mark {
@@ -7402,6 +7412,10 @@ textarea.form-control-lg {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.text-black-full {
+  color: rgb(0, 0, 0) !important;
+}
+
 .text-reset {
   color: inherit !important;
 }
@@ -11103,7 +11117,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 .masthead {
-  background-color: ##FDE1DE;
+  background-color: #FDE1DE;
   padding-top: 9.5rem;
   padding-bottom: 5rem;
 }
