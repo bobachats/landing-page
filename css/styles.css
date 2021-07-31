@@ -407,17 +407,25 @@ legend + * {
   z-index: 0;
 }
 
+#falling-man-image {
+  position: relative;
+  float: right;
+  width: 420px;
+  top: -190px;
+  margin-right: 100px;
+}
+
 #values-panel { 
   position: relative;
-  right: 0;
-  left: 10%;
-  width: 110%;
+  left: 3%;
+  width: 115%;
 }
 
 #values-panel p {
   background-image: linear-gradient(#FFFFFF, #DEF4E5) !important;
-  padding: 10rem 20rem 10rem 6rem;
-  border-radius: 2rem;
+  padding: 7rem 0 0 6rem;
+  border-radius: 2rem 0 0 2rem;
+  overflow: hidden;
 }
 
 ::-webkit-datetime-edit-fields-wrapper,
