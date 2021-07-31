@@ -401,6 +401,25 @@ legend + * {
   clear: left;
 }
 
+#puddle-image {
+  position: absolute;
+  transform: translateY(-300px);
+  z-index: 0;
+}
+
+#values-panel { 
+  position: relative;
+  right: 0;
+  left: 10%;
+  width: 110%;
+}
+
+#values-panel p {
+  background-image: linear-gradient(#FFFFFF, #DEF4E5) !important;
+  padding: 10rem 20rem 10rem 6rem;
+  border-radius: 2rem;
+}
+
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-text,
 ::-webkit-datetime-edit-minute,
@@ -3767,6 +3786,10 @@ textarea.form-control-lg {
 }
 .dropdown-menu-dark .dropdown-header {
   color: #adb5bd;
+}
+
+.btn {
+  z-index: 1;
 }
 
 .btn-group,
