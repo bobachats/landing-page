@@ -408,11 +408,11 @@ legend + * {
 }
 
 #falling-man-image {
-  position: relative;
+  position: relative; 
   float: right;
-  width: 420px;
+  width: 400px;
   top: -190px;
-  margin-right: 100px;
+  margin-right: 100px; 
 }
 
 #values-panel { 
@@ -426,6 +426,10 @@ legend + * {
   padding: 7rem 0 0 6rem;
   border-radius: 2rem 0 0 2rem;
   overflow: hidden;
+}
+
+#values-panel a {
+  margin-top: 0.8rem;
 }
 
 ::-webkit-datetime-edit-fields-wrapper,
@@ -3211,24 +3215,24 @@ textarea.form-control-lg {
 
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #652649;
+  border-color: #652649;
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
+  background-color:  #8E3567;
+  border-color:  #8E3567;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
-  background-color: #1c1f23;
+  background-color: #652649;
   border-color: #1a1e21;
   box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
 }
 .btn-check:checked + .btn-dark, .btn-check:active + .btn-dark, .btn-dark:active, .btn-dark.active, .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #1a1e21;
-  border-color: #191c1f;
+  background-color: #A9407A;
+  border-color: #A9407A90;
 }
 .btn-check:checked + .btn-dark:focus, .btn-check:active + .btn-dark:focus, .btn-dark:active:focus, .btn-dark.active:focus, .show > .btn-dark.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
