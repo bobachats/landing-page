@@ -128,6 +128,8 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-family: "Comfortaa", 'Open Sans', sans-serif;
 }
 
 abbr[title],
@@ -184,6 +186,14 @@ strong {
 
 small, .small {
   font-size: 0.875em;
+}
+
+.red {
+  color: #DD2E44;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 mark, .mark {
@@ -389,6 +399,37 @@ legend {
 }
 legend + * {
   clear: left;
+}
+
+#puddle-image {
+  position: absolute;
+  transform: translateY(-300px);
+  z-index: 0;
+}
+
+#falling-man-image {
+  position: relative; 
+  float: right;
+  width: 400px;
+  top: -190px;
+  margin-right: 100px; 
+}
+
+#values-panel { 
+  position: relative;
+  left: 3%;
+  width: 115%;
+}
+
+#values-panel p {
+  background-image: linear-gradient(#FFFFFF, #DEF4E5) !important;
+  padding: 7rem 0 0 6rem;
+  border-radius: 2rem 0 0 2rem;
+  overflow: hidden;
+}
+
+#values-panel a {
+  margin-top: 0.8rem;
 }
 
 ::-webkit-datetime-edit-fields-wrapper,
@@ -3174,24 +3215,24 @@ textarea.form-control-lg {
 
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #652649;
+  border-color: #652649;
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
+  background-color:  #8E3567;
+  border-color:  #8E3567;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
-  background-color: #1c1f23;
+  background-color: #652649;
   border-color: #1a1e21;
   box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
 }
 .btn-check:checked + .btn-dark, .btn-check:active + .btn-dark, .btn-dark:active, .btn-dark.active, .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #1a1e21;
-  border-color: #191c1f;
+  background-color: #A9407A;
+  border-color: #A9407A90;
 }
 .btn-check:checked + .btn-dark:focus, .btn-check:active + .btn-dark:focus, .btn-dark:active:focus, .btn-dark.active:focus, .show > .btn-dark.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.25rem rgba(66, 70, 73, 0.5);
@@ -3757,6 +3798,10 @@ textarea.form-control-lg {
 }
 .dropdown-menu-dark .dropdown-header {
   color: #adb5bd;
+}
+
+.btn {
+  z-index: 1;
 }
 
 .btn-group,
@@ -7400,6 +7445,10 @@ textarea.form-control-lg {
 
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.text-black-full {
+  color: rgb(0, 0, 0) !important;
 }
 
 .text-reset {
@@ -11103,7 +11152,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 .masthead {
-  background-color: ##FDE1DE;
+  background-color: #FDE1DE;
   padding-top: 9.5rem;
   padding-bottom: 5rem;
 }
