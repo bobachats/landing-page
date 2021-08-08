@@ -407,12 +407,10 @@ legend + * {
   z-index: 0;
 }
 
-#falling-man-image {
-  position: relative; 
-  float: right;
-  width: 400px;
-  top: -190px;
-  margin-right: 100px; 
+#celeb-bear-image {
+  width: 45%;
+  object-fit: contain;
+  transform: translateY(10%);
 }
 
 #values-panel { 
@@ -421,15 +419,20 @@ legend + * {
   width: 115%;
 }
 
-#values-panel p {
+#values-panel-container {
   background-image: linear-gradient(#FFFFFF, #DEF4E5) !important;
   padding: 7rem 0 0 6rem;
   border-radius: 2rem 0 0 2rem;
+  margin-top: 3rem;
   overflow: hidden;
 }
 
 #values-panel a {
   margin-top: 0.8rem;
+}
+
+.values-col {
+  flex: 1;
 }
 
 #events-panel h2, h3 {
@@ -692,10 +695,17 @@ progress {
   margin-left: auto;
 }
 
-.container-nm {
+.container-nm-pr {
   width: 85%;
   padding-right: var(--bs-gutter-x, 1.5rem);
   padding-left: 0
+}
+
+.container-smallm-pl {
+  width: 85%;
+  padding-left: var(--bs-gutter-x, 1.5rem);
+  padding-right: 0;
+  margin-left: 3rem;
 }
 
 @media (min-width: 576px) {
