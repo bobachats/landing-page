@@ -408,15 +408,9 @@ legend + * {
 }
 
 #celeb-bear-image {
-  width: 45%;
+  min-width: 0;
   object-fit: contain;
-  transform: translateY(10%);
-}
-
-#flying-man-image {
-  position: relative; 
-  float: right;
-  width: 700px;
+  transform: translateY(15%);
 }
 
 #values-panel { 
@@ -481,6 +475,16 @@ legend + * {
 
 .events-col li {
   font-size: 1.15rem;
+}
+
+.origins-col {
+  flex: 1;
+}
+
+#parachute-bear-image {
+  object-fit: contain;
+  min-width: 0;
+  padding-right: 0;
 }
 
 ::-webkit-datetime-edit-fields-wrapper,
@@ -7697,6 +7701,7 @@ textarea.form-control-lg {
 
   .d-sm-flex {
     display: flex !important;
+    flex-wrap: nowrap;
   }
 
   .d-sm-inline-flex {
