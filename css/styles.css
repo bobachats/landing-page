@@ -664,6 +664,14 @@ progress {
   padding-left: 10rem;
 }
 
+.img-bear-mod {
+  position: absolute;
+  width: 677px;
+  height: 677px;
+  left: 561px;
+  top: 145px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
