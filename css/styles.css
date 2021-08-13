@@ -482,6 +482,10 @@ legend + * {
   font-size: 1.15rem;
 }
 
+#origins-panel {
+  padding-top: 0;
+}
+
 .origins-col {
   flex: 1;
   z-index: 1;
@@ -500,6 +504,11 @@ legend + * {
 
 #opportunities-panel h2 {
   margin-bottom: 3rem;
+}
+
+#heart-bear-image {
+  width: 60%;
+  margin: auto auto;
 }
 
 
