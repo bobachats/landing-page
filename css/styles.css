@@ -84,6 +84,77 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
+
+/* Responsive Global Footer */
+.footer-container-buffer{
+  display: flex;
+  padding: 3rem 0;
+  margin: 0 12%;
+}
+/* lookie */
+.footer-container-nav-main{
+  display: flex;
+  justify-content: center;
+  flex-flow: nowrap;
+}
+/* left footer */
+.footer-container-nav-left{
+  display: flex;
+}
+.footer-font-title{
+  font-size: 28px;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.footer-font-about{
+font-size: 15px;
+width: 90%;
+color: #555;
+font-weight: 400;
+}
+.footer-font-title-left{
+  font-size: 15px;
+  color: #e6557a;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.footer-font-copyright{
+  font-size: 12px;
+  padding-bottom: 2rem;
+}
+.footer-button{
+  margin: .5rem 2rem 2rem 0;
+  border-radius: 10px;
+  background-color: #e6557a;
+  color: #f3f3f3;
+  font-size: 13px;
+  padding: .7rem 3rem;
+  font-weight: 600;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+  border: none;
+}
+/* right footer */
+.footer-container-nav-right{
+  display: flex;
+  justify-content:start;
+  align-items: start;
+  flex-flow: nowrap;
+}
+.footer-nav-right-column{
+  margin: 0 20% 0 0;
+}
+.footer-font-nav{
+  font-size: 14px;  
+  justify-content: left;
+  align-items: start;
+  padding-left: .1rem;
+  line-height: 2; 
+}
+
+
+
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2rem;
@@ -465,6 +536,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
+
 @media (min-width: 1200px) {
   .display-1 {
     font-size: 5rem;
@@ -608,6 +680,8 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -3532,7 +3606,23 @@ textarea.form-control-lg {
     left: auto;
   }
 }
+@media (max-width: 850px){
+  /* mobile responsive footer */
+  .footer-container-nav-right{
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    flex-flow: wrap;
+  }
+  .footer-container-nav-main{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+  }
+}
+
 @media (min-width: 768px) {
+
   .dropdown-menu-md-start {
     --bs-position: start;
   }
