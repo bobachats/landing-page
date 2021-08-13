@@ -579,11 +579,9 @@ legend + * {
 }
 
 #heart-bear-image {
-  width: 60%;
+  width: 55%;
   margin: auto auto;
 }
-
-
 
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-text,
