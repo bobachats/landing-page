@@ -392,6 +392,7 @@ legend {
   font-size: calc(1.275rem + 0.3vw);
   line-height: inherit;
 }
+
 @media (min-width: 1200px) {
   legend {
     font-size: 1.5rem;
@@ -401,10 +402,14 @@ legend + * {
   clear: left;
 }
 
-#puddle-image {
+#puddle-image-1, #puddle-image-2 {
   position: absolute;
   transform: translateY(-300px);
   z-index: 0;
+}
+
+#puddle-image-2 {
+  transform: translateY(-150px);
 }
 
 #celeb-bear-image {
@@ -479,6 +484,7 @@ legend + * {
 
 .origins-col {
   flex: 1;
+  z-index: 1;
 }
 
 #parachute-bear-image {
@@ -486,6 +492,17 @@ legend + * {
   min-width: 0;
   padding-right: 0;
 }
+
+#opportunities-panel {
+  position: relative;
+  z-index: 1;
+}
+
+#opportunities-panel h2 {
+  margin-bottom: 3rem;
+}
+
+
 
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-text,
@@ -11266,6 +11283,7 @@ footer a:hover, footer a:active, footer a:focus {
 .masthead .masthead-device-mockup .device-wrapper {
   max-width: 10rem;
 }
+
 @media (min-width: 576px) {
   .masthead .masthead-device-mockup .circle {
     width: 70%;
