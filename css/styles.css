@@ -738,11 +738,9 @@ progress {
 }
 
 .img-bear-mod {
-  position: absolute;
-  width: 677px;
-  height: 677px;
-  left: 561px;
-  top: 145px;
+  width: 120%;
+  object-fit: contain;
+  transform: translateY(10%);
 }
 
 .img-thumbnail {
