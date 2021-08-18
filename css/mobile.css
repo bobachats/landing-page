@@ -1,0 +1,35 @@
+
+@media (max-width:1200px) {
+    .image-container {
+        position: relative;
+
+    }
+
+    #heart-bear-image, #flying-bear-image
+    {
+        position: relative;
+        width: 80%;  
+        height: auto;  
+        top:50%;
+        left:10%;
+        text-align: center;  
+    }
+
+    #parachute-bear-image {
+        position: relative;
+        width: 120%;  
+        height: auto;  
+        top:50%;
+        left:0%;
+        text-align: center;  
+    }
+
+    #celeb-bear-image {
+        position: relative;
+        width: 80%;  
+        height: auto;  
+        top:50%;
+        left:5%;
+        text-align: center;  
+    }
+}
