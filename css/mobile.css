@@ -1,0 +1,44 @@
+
+@media (min-width:1200px){
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .image-container {
+        position: relative;
+    }
+
+    #heart-bear-image-mobile, #flying-bear-image-mobile
+    {
+        position: relative;
+        width: 80%;  
+        height: auto;  
+        top:50%;
+        left:10%;
+        text-align: center;  
+    }
+
+    #parachute-bear-image-mobile {
+        position: relative;
+        width: 80%;  
+        height: auto;  
+        top:50%;
+        left:20%;
+        text-align: center;  
+    }
+
+    #celeb-bear-image-mobile {
+        position: relative;
+        width: 60%;  
+        height: auto;  
+        top:50%;
+        left:10%;
+        text-align: center;  
+    }
+}
