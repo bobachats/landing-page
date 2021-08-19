@@ -3392,7 +3392,7 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn-light, .btn-light:focus {
   color: #fff;
-  background-color: #fd6a4d;@
+  background-color: #fd6a4d;
   border-color: #ca391c;
   box-shadow: 0 0 0 0.25rem rgba(211, 212, 213, 0.5);
 }
