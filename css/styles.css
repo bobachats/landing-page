@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   /* background-color: #FDE1DE; */
-  background-color: #fff;
+  background-image: linear-gradient(#adc5fa, #E9D5F0, #FBF8E0, #FAF1D7, #FBECE1, #F9A0C0, #E2DBF5);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -482,16 +482,6 @@ legend {
 }
 legend + * {
   clear: left;
-}
-
-#puddle-image-1, #puddle-image-2 {
-  position: absolute;
-  transform: translateY(-300px);
-  z-index: 0;
-}
-
-#puddle-image-2 {
-  transform: translateY(-150px);
 }
 
 #celeb-bear-image {
@@ -11368,8 +11358,6 @@ footer a:hover, footer a:active, footer a:focus {
 .masthead {
   padding-top: 9.5rem;
   padding-bottom: 5rem;
-  /* background-color: #FDE1DE; */
-  background-color: #fff;
 }
 .masthead .masthead-device-mockup {
   display: flex;
