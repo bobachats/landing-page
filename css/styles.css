@@ -96,6 +96,19 @@ h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
 
+.orign-story-text {
+  text-align:center;
+}
+.origin-story {
+  display: inline-block;
+  border-radius: 10px;
+  height: 100px; /*sets height of element*/
+  background: #ffffff50; /*sets the background of this element (here a solid colour)*/
+  padding-left: 20px; /*sets 'padding'*/
+  padding-right: 20px; /*sets 'padding'*/
+  line-height: 50px; /*for this, it sets vertical alignment*/
+}
+
 /* Responsive Global Footer */
 .footer-container-buffer{
   display: flex;
@@ -125,7 +138,7 @@ font-weight: 400;
 }
 .footer-font-title-left{
   font-size: 15px;
-  color: #e6557a;
+  color: #9381FF;
   white-space: nowrap;
   font-weight: 500;
 }
@@ -136,7 +149,7 @@ font-weight: 400;
 .footer-button{
   margin: .5rem 2rem 2rem 0;
   border-radius: 10px;
-  background-color: #e6557a;
+  background-color: #9381FF;
   color: #f3f3f3;
   font-size: 13px;
   padding: .7rem 3rem;
@@ -3404,12 +3417,12 @@ textarea.form-control-lg {
 
 .btn-dark {
   color: #fff;
-  background: linear-gradient(#1DA1F2, #4593D7);
+  background: linear-gradient(#9381FF, #A3BCF9);
 }
 
 .btn-dark:hover {
   color: #fff;
-  background: linear-gradient(#3688f3, #1d79f2);
+  background: linear-gradient(#9381FF, #A3BCF9);
   box-shadow: 3px 3px 10px #8da2b4;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
