@@ -621,6 +621,141 @@ legend + * {
   margin: auto auto;
 }
 
+/* how boba works */
+
+/* global */
+.how-boba-work-container{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.hbw-mega{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.hbw-header{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(1.475rem + 2.7vw);
+  font-weight: 600;
+  line-height: 1.2;
+  width: 100%;
+  margin: 5% 5%;
+}
+.hbw-main{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 35%;
+  background-color: #f3f3f3;
+  margin: .8%;
+  border-radius:10px;
+  padding: 1rem;
+}
+.hbw-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row ;
+}
+.hbw-subsection{
+  margin: 0 12px;
+}
+.step-visual{
+  width: 35%;
+  height: auto;
+}
+.hbw-subsection-header{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.hbw-subsection-text{
+  font-size: 1rem;
+}
+.hbw-button-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2% 0 0 0;
+}
+.hbw-button{
+  border: 0;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: skyblue;
+  padding: 1% 6%;
+  color: white;
+}
+/* mobile responsive */
+@media (max-width: 780px) {
+  .how-boba-work-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .hbw-mega{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    width: 100%;
+    margin: .8%;
+  }
+  .hbw-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  /* .hbw-main{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    align-items: center;
+    width: 100%;
+    background-color: #f3f3f3;
+    margin: .8% 5%;
+    border-radius:10px;
+    padding: 1rem;
+  } */
+  .hbw-main{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 40%;
+    background-color: #f3f3f3;
+    margin: .8% 2%;
+    border-radius:10px;
+    padding: 1rem;
+  }
+  .hbw-button-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5% 0 0 0;
+  }
+  .hbw-button{
+    border: 0;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: skyblue;
+    padding: 1% 8%;
+    color: white;
+  }
+}
+
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-text,
 ::-webkit-datetime-edit-minute,
