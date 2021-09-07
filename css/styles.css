@@ -118,6 +118,25 @@ h1, .h1 {
   padding-top: 34px;
 }
 
+.values-box {
+  width: 347px;
+  height: 310px;
+  left: 104px;
+  top: 2654px;
+  background: linear-gradient(180deg, #9989FB 0%, #789CF7 100%);
+  border-radius: 30px;
+  padding: 10;
+}
+
+.events-box {
+  width: 300px;  
+  height: 208px;
+  left: 100px;
+  top: 3283px;
+  background: linear-gradient(111.66deg, #9381FF 0%, #9588FC 23.3%, #789CF7 45.63%, #789CF7 68.44%, #A3BCF9 93.19%);
+  border-radius: 26px;
+}
+
 /* Responsive Global Footer */
 .footer-container-buffer{
   display: flex;
