@@ -687,7 +687,11 @@ legend + * {
   margin: 0 12px;
 }
 .step-visual{
-  width: 35%;
+  width: 128px;
+  height: auto;
+}
+.step-visual-adjust{
+  width: 128px;
   height: auto;
 }
 .hbw-subsection-header{
