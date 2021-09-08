@@ -535,8 +535,8 @@ legend + * {
 
 #visions-panel { 
   position: relative;
-  left: 3%;
-  width: 85%;
+  left: 5%;
+  width: 75%;
 }
 
 #visions-panel-container {
