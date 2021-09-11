@@ -117,6 +117,15 @@ h1, .h1 {
   padding-right: 40px; /*sets 'padding'*/
   padding-top: 34px;
 }
+.origin-story-3 {
+  display: inline-block;
+  border-radius: 10px;
+  height: 500px; /*sets height of element*/
+  background: #ffffff50; /*sets the background of this element (here a solid colour)*/
+  padding-left: 40px; /*sets 'padding'*/
+  padding-right: 40px; /*sets 'padding'*/
+  padding-top: 34px;
+}
 
 .values-box {
   width: 347px;
