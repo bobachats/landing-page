@@ -134,7 +134,10 @@ h1, .h1 {
   top: 2654px;
   background: linear-gradient(180deg, #9989FB 0%, #789CF7 100%);
   border-radius: 30px;
-  padding: 10;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 30px;
 }
 
 .events-box {
@@ -560,6 +563,11 @@ legend + * {
   position: relative;
   left: 3%;
   width: 115%;
+}
+
+#values-panel-updated {
+  padding-left: 75px; 
+  padding-right: 75px;
 }
 
 #values-panel-container {
