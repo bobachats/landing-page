@@ -7904,6 +7904,7 @@ textarea.form-control-lg {
 
 .bg-footer {
   background-image: var(--bs-footer) !important;
+}
 
 .user-select-all {
   -webkit-user-select: all !important;
